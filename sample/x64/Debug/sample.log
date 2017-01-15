@@ -1,0 +1,34 @@
+﻿Build started 09.01.2017 18:03:05.
+     1>Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\sample\sample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\sample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\\" /I"D:\Python-3.4.4rc1\Include" /I"D:\Python-3.4.4rc1\PC" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAMPLE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt sample_wrap.cxx
+         sample_wrap.cxx
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.dll) does not match the Linker's OutputFile property value (C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\sample\_sample_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(sample) does not match the Linker's OutputFile property value (_sample_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"_sample_d.pyd" /INCREMENTAL /NOLOGO "D:\Python-3.4.4rc1\PCbuild\amd64\python34_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\sample.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.lib" /MACHINE:X64 /DLL x64\Debug\sample.dll.embed.manifest.res
+         x64\Debug\sample.obj
+         x64\Debug\sample_wrap.obj
+         "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\A.lib"
+         sample.vcxproj -> C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\sample.dll.embed.manifest" /manifest x64\Debug\sample.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         sample.vcxproj -> C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\sample.unsuccessfulbuild".
+         Touching "x64\Debug\sample.lastbuildstate".
+     1>Done Building Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\sample\sample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66

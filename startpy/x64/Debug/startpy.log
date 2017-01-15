@@ -1,0 +1,39 @@
+﻿Build started 09.01.2017 18:03:02.
+     1>Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\startpy\startpy.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\startpy.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Debug\startpy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Python-3.4.4rc1\Include" /I"D:\Python-3.4.4rc1\PC" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\startpy.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Python-3.4.4rc1\Include" /I"D:\Python-3.4.4rc1\PC" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\startpy.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt startpy.cpp
+         startpy.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\startpy.exe.embed.manifest.res" x64\Debug\startpy_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.exe" /INCREMENTAL /NOLOGO "D:\Python-3.4.4rc1\PCbuild\amd64\python34_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\startpy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.lib" /MACHINE:X64 x64\Debug\startpy.exe.embed.manifest.res
+         x64\Debug\startpy.obj
+         x64\Debug\stdafx.obj
+         "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\A.lib"
+         "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.lib"
+         startpy.vcxproj -> C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.exe
+       Manifest:
+         Deleting file "x64\Debug\startpy.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\startpy.exe.embed.manifest" /manifest x64\Debug\startpy.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\startpy.exe.embed.manifest.res" x64\Debug\startpy_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.exe" /INCREMENTAL /NOLOGO "D:\Python-3.4.4rc1\PCbuild\amd64\python34_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\startpy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.lib" /MACHINE:X64 x64\Debug\startpy.exe.embed.manifest.res
+         x64\Debug\startpy.obj
+         x64\Debug\stdafx.obj
+         "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\A.lib"
+         "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\sample.lib"
+         startpy.vcxproj -> C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Debug\startpy.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\startpy.unsuccessfulbuild".
+         Touching "x64\Debug\startpy.lastbuildstate".
+     1>Done Building Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\startpy\startpy.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

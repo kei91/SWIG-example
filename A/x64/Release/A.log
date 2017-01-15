@@ -1,0 +1,20 @@
+﻿Build started 27.12.2016 18:10:51.
+     1>Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\A\A.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\A.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Release\A.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D A_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt A.cpp
+         A.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Release\A.lib" /NOLOGO /LTCG x64\Release\A.obj
+         A.vcxproj -> C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\x64\Release\A.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\A.unsuccessfulbuild".
+         Touching "x64\Release\A.lastbuildstate".
+     1>Done Building Project "C:\Users\Катя\Documents\Visual Studio 2010\Projects\sample\A\A.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
