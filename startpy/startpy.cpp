@@ -7,37 +7,6 @@
 #include "../A/A.h"
 #include "../sample/sample.h"
 
-//unicode лечится пересозданием файла через notepad++ c выставленными в Settings - Preferences - New Document ->
-// Encoding -> UTF-8 without BOM + (check) Apply to opened ANSI files
-void pythonFunc2()
-{
-	Py_Initialize();
-	
-	// Create some Python objects that will later be assigned values.
-	PyObject *pName, *pModule, *pDict, *pFunc;
-	
-	//PyRun_SimpleString("# -*- coding: windows-1255 -*- ");
-	PyRun_SimpleString("import sys");
-	PyRun_SimpleString("sys.path.append('D:/тест/minimal/minimal')");
-	//PyRun_SimpleString("sys.path.append('D:/python_test/minimal/minimal')");
-	pName = PyUnicode_FromString("runme3");
-	
-	// Import the file as a Python module.
-	pModule = PyImport_Import(pName);
-	PyErr_Print();
-
-	// Create a dictionary for the contents of the module.
-	pDict = PyModule_GetDict(pModule);
-	
-	pFunc = PyDict_GetItemString(pDict, "test");
-	PyObject* pResult = PyObject_CallObject(pFunc, NULL);
-
- 	if(pResult == NULL)
-		printf("Calling the add method failed.\n");
-
-	Py_Finalize();
-}
-
 enum func
 {
 	tryInteger = 0,
